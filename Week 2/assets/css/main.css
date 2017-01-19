@@ -1,0 +1,182 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+/*ONE COLUMN*/
+
+.one-column .a, .one-column .b {
+	width: 100%;
+	height: 50%;
+}
+
+.one-column .a {
+	background-color: skyblue;
+}
+
+.one-column .b {
+	background-color: pink;
+}
+
+
+/*TWO COLUMN*/
+
+.two-column .a, .b {
+	width: 50%;
+	height: 100%;
+}
+
+.two-column .a {
+	background-color: skyblue;
+	display: inline-block;
+}
+
+.two-column .b {
+	background-color: pink;
+	display: inline-block;
+	float: right;
+}
+
+
+/*THREE COLUMN*/
+
+.three-column div {
+	width: 33.33333333%;
+	height: 100%;
+	float: left;
+}
+
+.three-column .a {
+	background-color: skyblue;
+}
+
+.three-column .b {
+	background-color: pink;
+}
+
+.three-column .c {
+	background-color: white;
+}
+
+
+/*FOUR COLLUMN*/
+
+.four-column div {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.four-column .a {
+	background-color: skyblue;
+}
+
+.four-column .b {
+	background-color: pink;
+}
+
+.four-column .c {
+	background-color: white;
+}
+
+.four-column .d {
+	background-color: #356783;
+}
+
+/*ONE-ON-TWO*/
+
+.one-on-two div {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.one-on-two .a {
+	background-color: skyblue;
+	width: 100%
+}
+
+.one-on-two .b {
+	background-color: pink;
+}
+
+.one-on-two .c {
+	background-color: white;
+}
+
+/*TWO COLLUMN STACKED*/
+
+.two-column-stacked div {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.two-column-stacked .a {
+	background-color: skyblue;
+}
+
+.two-column-stacked .b {
+	background-color: pink;
+}
+
+.two-column-stacked .c {
+	background-color: white;
+}
+
+.two-column-stacked .d {
+	background-color: #356783;
+}
+
+/*ONE ON THREE*/
+
+.one-on-three div {
+	width: 33.33333%;
+	height: 50%;
+	float: left;
+}
+
+.one-on-three .a {
+	background-color: skyblue;
+	width: 100%
+}
+
+.one-on-three .b {
+	background-color: pink;
+}
+
+.one-on-three .c {
+	background-color: white;
+}
+
+.one-on-three .d {
+	background-color: #356783;
+}
+
+/*TWO COLUMN STACKED ROWS*/
+
+.two-column-stacked-rows div {
+	width: 70%;
+	height: 33.3333333%;
+	float: left;
+}
+
+.two-column-stacked-rows .a {
+	background-color: skyblue;
+	width: 30%;
+	height: 100%
+}
+
+.two-column-stacked-rows .b {
+	background-color: pink;
+}
+
+.two-column-stacked-rows .c {
+	background-color: white;
+}
+
+.two-column-stacked-rows .d {
+	background-color: #356783;
+}
